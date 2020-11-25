@@ -3,4 +3,17 @@
     width: 60%;
     height: 119%;
     padding: 0;
+    z-index: -1;
+}
+.img2{
+    position: absolute;
+    width: 50%;
+    height: max-content;
+}
+.login-container{
+    transform: translate(50%,300%);
+    border-radius: 15px;
+    border-color: aqua;
+    border: aqua;
+
 }
