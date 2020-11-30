@@ -1,6 +1,14 @@
-var jmlPesawat =10;
-var noPesawat =1;
-while(noPesawat <= jmlPesawat){
-    console.log(' Pesawat ' + noPesawat + ' Bisa Lepas Landas')
-    noPesawat++;
+
+var jumlahAngka =10;
+var angkaAktif =6;
+
+for(var angka =1; angka <=jumlahAngka; angka++){
+
+    if(angka <=angkaAktif){
+  console.log('Angkot No.' + angka +' beroperasi dengan baik')
+    }else
+    console.log('Angkot No. ' + angka + ' Tidak Beroperasi')
+    angka++;
 }
+
+
