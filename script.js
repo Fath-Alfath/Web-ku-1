@@ -1,5 +1,6 @@
-var nilaiAwal=1;
-while(nilaiAwal <=10){
-    console.log('Angkot No.' + nilaiAwal + ' beroperasi dengan baik ')
-    nilaiAwal++;
+var jmlPesawat =10;
+var noPesawat =1;
+while(noPesawat <= jmlPesawat){
+    console.log(' Pesawat ' + noPesawat + ' Bisa Lepas Landas')
+    noPesawat++;
 }
