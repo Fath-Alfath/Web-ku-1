@@ -8,7 +8,6 @@ for(var angka =1; angka <=jumlahAngka; angka++){
   console.log('Angkot No.' + angka +' beroperasi dengan baik')
     }else
     console.log('Angkot No. ' + angka + ' Tidak Beroperasi')
-    angka++;
 }
 
 
