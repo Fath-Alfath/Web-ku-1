@@ -1,13 +1,16 @@
+var jmlAngkot=10;
+var angkotAktif=6;
 
-var jumlahAngka =10;
-var angkaAktif =6;
+for(var noAngkot=1; noAngkot <= angkotAktif; noAngkot++){
 
-for(var angka =1; angka <=jumlahAngka; angka++){
-
-    if(angka <=angkaAktif){
-  console.log('Angkot No.' + angka +' beroperasi dengan baik')
-    }else
-    console.log('Angkot No. ' + angka + ' Tidak Beroperasi')
+  if(noAngkot <= angkotAktif ){
+    console.log('Angkot No. ' + noAngkot + ' Beroperasi Dengan baik')
+  }
+  else if(jmlAngkot >=angkotAktif + 1){
+    console.log('Angkot No ' + angkotAktif + ' Sedang tidak beroperasi')
+  }
+  else{
+    console.log('Angkot No. ' + noAngkot + ' Harus Lembur')
+  }
 }
-
 
